@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Unimed Jundiaí - Contate-nos</title>
+</head>
+
+<body>
+    <wrapper class="wrapper">
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="link-index" target="_self"
+                        title="Clique aqui para voltar à página inicial.">Voltar à Página Inicial</a>
+                </li>
+            </ul>
+        </div>
+
+        <main class="main">
+            <header class="header">
+                <a href="/">
+                    <img src="./src/imagem/unimedlogo.png" class="logo-header">
+                </a>
+            </header>
+
+            <content class="content">
+                <div class="fale-conosco-div">
+                    <h4>Fale conosco:</h4>
+                    <form action="/" method="post" target="_blank" autocomplete="off"
+                        onsubmit="alert('Dúvida enviada')">
+                        <label for="text">Nome:</label>
+                        <input class="form-input" type="text" function="name" />
+                        <label for="text">Sobrenome:</label>
+                        <input class="form-input" type="text" function="sobrenome" /><br>
+
+                        <span class="email-assunto">
+                            <label for="text">E-mail:</label>
+                            <input class="form-input" type="email" function="email"><br>
+                            <label for="text">Assunto:</label>
+                            <input class="form-input" type="text" function="assunto">
+                        </span>
+
+                        <div class="space-form">
+                            <label for="text" class="subtitulo-form">Deixe sua dúvida aqui:</label><br>
+                            <textarea width="400px" height="200px"></textarea>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                    </form>
+                </div>
+                <div class="segundadivtext">
+                    <h4>Alguns dados de contato:</h4>
+                    <ul>
+                        <li>Celular/Whatsapp: (11) 95364-9054</li>
+                        <li>E-mail: laboratorio.unimed@gmail.com</li>
+                        <li>Endereço: Av. Nove de Julho, 668 - Centro, Ribeirão Preto - SP, 14020-170</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="loc">
+                    <h4>Nossa Localização atual</h4>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1807.1362566482449!2d-47.81298685024824!3d-21.18505672084358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf193ae617ab%3A0x11290e633f632839!2sLaborat%C3%B3rio%20Unimed!5e0!3m2!1spt-BR!2sbr!4v1685405511045!5m2!1spt-BR!2sbr"
+                        width="740" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </content>
+
+            <footer class="footer">
+                <div class="address-footer">
+                    <a href="contact.html">laboratorio.unimed@gmail.com</a>
+                    <p class="telefone-footer">+55 (11) 95364-9054</p>
+                </div>
+
+            </footer>
+        </main>
+    </wrapper>
+</body>
+
+</html>

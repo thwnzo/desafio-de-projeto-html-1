@@ -1,0 +1,201 @@
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(75, 172, 114);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(127, 207, 145);
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-color: rgb(54, 168, 92);
+    min-height: 100px;
+    position: relative;
+}
+
+.content {
+    background-color: rgb(197, 230, 209);
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'poppins';
+
+}
+
+.footer {
+    background-color: rgb(116, 186, 140);
+    min-height: 100px;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0;
+
+}
+
+.logo-header {
+    display: flex;
+    flex-direction: center;
+    width: 300px;
+    height: 100px;
+
+}
+
+.text-1 {
+    border: 1px transparent rgb(127, 207, 145);
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
+
+}
+
+.img-clinica-1 {
+    width: 290px;
+    height: 180px;
+    padding: 8px;
+    padding-top: 30px;
+}
+
+.img-clinica-2 {
+    width: 290px;
+    height: 180px;
+    padding: 8px;
+    padding-top: 30px;
+}
+
+.img-clinica-3 {
+    width: 290px;
+    height: 180px;
+    padding: 8px;
+    padding-top: 30px;
+}
+
+.laboratorio {
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 25px;
+
+
+}
+
+.text-imagens {
+    padding: 8px;
+
+}
+
+.localizacao {
+    padding: 8px;
+    width: 600px;
+    height: 250px;
+
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 37px;
+    margin-right: 60px;
+
+}
+
+.entrar {
+    background-color: rgb(197, 230, 209);
+    font-family: 'poppins';
+
+}
+
+.cadastrar {
+    background-color: rgb(197, 230, 209);
+    font-family: 'poppins';
+
+}
+
+.footer .address-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-top: 30px;
+
+}
+
+.table {
+    border: solid 3px black;
+
+}
+
+.table thead {
+    background-color: rgb(54, 168, 92);
+    cursor: pointer;
+}
+
+.linha {
+    background-color: rgb(127, 207, 145);
+    cursor: pointer;
+}
+
+.tabela {
+    margin-bottom: 20px;
+
+}
+
+.duvida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fale-conosco {
+    width: 600px;
+    margin: 5px;
+    position: relative;
+}
+
+.loc {
+    margin: 40px;
+}
+
+
+.fale-conosco-div {
+    margin: 40px;
+}
+
+.img-unimed1 {
+    margin: 20px;
+
+}
+
+.img-unimed2 {
+    margin: 20px;
+
+}
+
+.email-idade{
+    margin-bottom: 30px;
+}
+
+.form-input{
+    align-items: first baseline;
+}
+
+.pagamentos{
+    margin-top: 45px;
+}
